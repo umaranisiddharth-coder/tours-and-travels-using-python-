@@ -21,7 +21,7 @@ class Config:
     SITE_NAME = os.getenv('SITE_NAME', 'SR Travels')
     SITE_URL = os.getenv('SITE_URL', 'http://localhost:5000')
     SITE_EMAIL = os.getenv('SITE_EMAIL', 'info@srtravels.com')
-    SITE_PHONE = os.getenv('SITE_PHONE', '+91-9876543210')
+    SITE_PHONE = os.getenv('SITE_PHONE', '+91-9356437871')
 
     # Payment
     PAYMENT_TEST_MODE = os.getenv('PAYMENT_TEST_MODE', 'false') == 'true'
@@ -42,6 +42,7 @@ class Config:
 
     # Google Maps
     GOOGLE_MAPS_API_KEY = os.getenv('GOOGLE_MAPS_API_KEY', '')
+    WHATSAPP_ACCESS_TOKEN = os.getenv('WHATSAPP_ACCESS_TOKEN', '')
     WHATSAPP_PHONE_NUMBER_ID = os.getenv('WHATSAPP_PHONE_NUMBER_ID', '')
 
     # Booking
